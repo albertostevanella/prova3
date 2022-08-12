@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+.bordorosso {border: 1px solid red;}
+
+.mr-6 {padding-right: 6rem !important;}
+.ml-6 {padding-left: 6rem !important;}
+.mt-6 {margin-top: 90px !important;}
+.mb-6 {margin-bottom: 6rem !important;}
+.mt-0{margin-top: 30px;}
+.mt-1{margin-top: 50px;}
+.mt-2{margin-top: 100px;}
+.mt-3{margin-top: 150px;}
+.tw{color:#fff}
+.corsivo{font-style: italic;}
+.grassetto{font-weight: bold;}
+.sottolineato{text-decoration: underline;}

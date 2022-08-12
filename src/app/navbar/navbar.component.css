@@ -1,0 +1,95 @@
+.spacerflex{
+  flex: 1 1 auto;
+}
+
+.dropdown-menu > li > a:active,
+#dropdownMenu2:active{
+  background-color: rgb(218, 23, 23);
+  color: white;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu > a:after {
+  content: "\f0da";
+  float: right;
+  border: none;
+  font-family: 'FontAwesome';
+}
+
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.navbar .navbar-nav > li.open > a:hover,
+.navbar .navbar-nav > li.open > a:focus {
+  background-color: teal !important;
+  color: #fff !important;
+}
+
+.redgros{
+  color: red;
+  font-weight: bold;
+}
+
+.fas{
+  color: black;
+}
+
+#contattaci {
+  background: rgb(218, 23, 23)/*#226896*/;
+  color: white;
+}
+
+
+
+
+.dropdown-menu li {
+position: relative ;
+}
+.dropdown-menu .dropdown-submenu {
+display: dynamic;
+position: absolute;
+left: 100%;
+top: -7px;
+}
+
+.dropdown-menu .dropdown-submenu-left {
+right: 100%;
+left: auto;
+}
+.dropdown-menu > li:hover > .dropdown-submenu {
+display: block;
+}
+
+.dropdown-hover:hover>.dropdown-menu {
+display: inline-block;
+}
+
+.dropdown-hover>.dropdown-toggle:active {
+/*Without this, clicking will make it sticky*/
+pointer-events: none;
+}
+
+
+@media (max-width: 950px) {
+    .content {
+      margin-left: 20px !important;
+      margin-right: 20px !important;
+      max-width: none;
+    }
+
+    .dropdown-menu .dropdown-submenu {
+        display: dynamic;
+        position: relative !important;
+        left: 0px;
+        top: 0px;
+        bottom: 20px;
+        }
+  }
+  
